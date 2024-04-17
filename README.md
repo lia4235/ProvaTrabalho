@@ -4,5 +4,8 @@ Para estimar os parâmetros do modelo,adaptamos um algoritmo proposto por Anders
 
 $L(\theta)=log(K_{n}(\eta))-½log (\Sigma)-½(\eta)(1+n\eta) log(1+c(\eta) \delta)$     (4.4)
 
-com  $log(K_{n}(\eta))=\frac{n}{2}log(\frac {c(\eta)}{\pi})+log \Gamma (\frac{1-n\eta}{2\eta})-log \Gamma (\frac{1}{2\eta}), \delta = (\boldsymbol{Y} - \boldsymbol {X} \beta)^{T}\Sigma^-¹(\boldsymbol{Y}-\boldsymbol {X} \beta)$ e $c(\eta) = \eta/(1-2 \eta), 0<\eta<½$. Conforme observado por Zellner (1976), a função log-verossimilhança. Veja também De Bastini et al. (2015).
-As funções escores para o modelo espacial linear
+com  $log(K_{n}(\eta))=\frac{n}{2}log(\frac {c(\eta)}{\pi})+log \Gamma (\frac{1-n\eta}{2\eta})-log \Gamma (\frac{1}{2\eta}), \delta = (\boldsymbol{Y} - \boldsymbol {X} \beta)^{T}\Sigma^-¹(\boldsymbol{Y}-\boldsymbol {X} \beta)$ e  $c(\eta) = \eta/(1-2 \eta), 0<\eta<½$. Conforme observado por Zellner (1976), a função log-verossimilhança. Veja também De Bastini et al. (2015).
+As funções escores para o modelo espacial linear t-Student são fornecidos por $U_{\theta}(\theta) = (U^T_\beta,U^T_\phi)^T$,em que
+
+$U_\beta=
+
